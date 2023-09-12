@@ -1,0 +1,66 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/32/37/bf/3237bf1e172a6089e0c437ffd3b28010.gif");
+    /* background-image: url("https://wallpapercave.com/wp/wp2483854.jpg"); */
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: rgb(254, 255, 209);
+}
+
+.container{
+    margin: auto;
+    border: 5px solid #ee131384;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #191a19b4;
+    margin-top: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.player {
+    margin: 20px;
+}
+
+.dice-box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #00000000;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    background: #ee131384;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: antiquewhite;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
